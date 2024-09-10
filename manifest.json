@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Link Saver Extension",
+  "version": "1.0",
+  "permissions": ["tabs", "storage"],
+  "action": {
+    "default_popup": "index.html"
+  }
+}
