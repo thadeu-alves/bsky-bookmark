@@ -2,8 +2,14 @@
   "manifest_version": 3,
   "name": "Bookmark Bluesky Extension",
   "version": "1.0",
-  "permissions": ["tabs", "storage"],
+  "permissions": [
+    "tabs",
+    "storage",
+    "scripting",
+    "activeTab"
+  ],
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "index.html",
+    "default_icon": "hello_extensions.png"
   }
 }
